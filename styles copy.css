@@ -1,0 +1,105 @@
+*{
+   /* background-color: #3F3351; */
+margin:0;
+padding:0;
+font-family: 'Roboto',sans-serif;  
+}
+.container{
+    overflow-x: auto;    
+  white-space: nowrap;
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(rgba(0,0,0,0),rgba(0.7,0.7,0.7,0.7)),url(background.jpg); 
+   background-position: center;
+   background-size: cover;
+    text-align: center;
+   
+}
+.align-header{
+ margin-left:22rem;
+}
+
+.header-color{
+ color:blue;
+   }
+.navbar{
+    display:inline-block;
+    text-align: center;
+    height:12%;
+    display:flex;
+    align-items:center;
+}
+.logo{
+   
+    width:50px;
+    cursor:pointer;
+}
+.menu-icon{
+    
+    width:50px;
+    cursor:pointer;
+    margin-left:30px;
+}
+nav{
+    
+    flex:1;
+    text-align:right;
+
+}
+nav ul li{
+    list-stle:none;
+    
+    display:inline-block;
+    margin-left:50px;
+}
+
+nav ul li a{
+    
+    text-decoration:solid ;
+    color:rgb(255, 255, 255);
+    font-size:13px;
+}
+button{
+    width:180px;
+    color:#000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline:none;
+    margin-top:30px;
+}
+
+forgotten{
+    width: 100px;
+    color:#000;
+    font-size: 10px;
+    padding: 0px 10;
+    background: #fff;
+    border: 0;
+    border-radius: 10px;
+    outline:none;
+    margin-top:10in;
+}
+h1{
+    color: #15f54d;
+}
+.login-fields{
+    margin: 3rem 0rem;
+    padding: 16px;
+}
+
+#login{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+width: 260px;
+height: 260px;
+border-radius: 5px;
+background: rgba(3, 3, 3, 0);
+box-shadow: 1px 1px 50px rgba(214, 212, 212, 0);
+}
